@@ -11,7 +11,7 @@ console.log('ip: ' + ip);
 
 var server = http.createServer(function (req, res) {
 
-        res.writeHead(500, {
+        res.writeHead(200, {
             "Content-Type": "text/plain"
         });
         res.write('oh look it works, I guess openshift doesnt suck after all');
